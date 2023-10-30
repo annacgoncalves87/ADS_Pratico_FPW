@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Apresentação</title>
+    <link rel="stylesheet" type="text/css" href="css/estilo.css">
+</head>
+
+<body>
+    
+    <header class="menu">
+        <!--menu-->
+        <nav id="main">
+            <a href="#sobre">Sobre</a>
+            <a href="#formacao">Formação</a>
+            <a href="#portifolio">Portifólio</a>
+            <a href="#contato">Contato</a>
+        </nav>
+    </header>
+    
+    <main>
+
+        <section id="topo">
+            <br><br><br>
+            <p class="titulo"> Olá! Seja bem vindo.</p>
+            <br>
+            <div class="texto">
+                <p class="paragrafo">Se sinta em casa só não coloque os pés no sofá.</p>
+                <p class="paragrafo">Nessa página encontrará um pouco sobre mim mas calma... sou introvertida e ela só existe por conta de um trabalho da faculdade.</p>
+                <p class="paragrafo">Espero que aproveitem.</p>
+            </div>
+        </section>
+        <br><br><br>
+
+        <section id="sobre"><!--sobre mim-->
+            <p class="titulo borda">Sobre Mim</p>
+
+            <table>
+                <tr>
+                    <td>
+                        <div class="texto">
+                            <p class="paragrafo">Sou uma pessoa que não se contenta com o óbvio e que está sempre em busca de novos aprendizados e experiências. Viajar é uma das minhas paixões, pois me permite conhecer diferentes culturas, paisagens e histórias.</p>
+                            <p class="paragrafo">Gosto de registrar essas aventuras com minha câmera, para guardar na memória e compartilhar com os outros. Também sou fã de filmes e livros que me surpreendam e me façam pensar. Nada melhor do que uma boa história para me envolver e me distrair.</p>
+                            <p class="paragrafo">Sou muito apegada à minha família e aos meus amigos, e adoro passar momentos divertidos e agradáveis com eles. Mas também sei valorizar a minha própria companhia, e aproveito os momentos de silêncio e reflexão para me conhecer melhor.</p>
+                        </div>
+                    </td>
+                    <td>
+                        <img src="img\Pinguim_Inicial.png" alt="Imagem de apresentação" class="img-inicial" >
+                    </td>
+                </tr>
+            </table>
+            <br>
+            <a class="paragrafo" href="#topo">Topo</a>
+        </section>
+        <br><br><br>
+
+        <section id="formacao"><!--formação educacional e cursos complementares-->
+            <p class="titulo borda">Formação Acadêmica</p>
+
+            <table>
+                <tr>
+
+                    <td>
+                        <img src="img\Pinguim.png" alt="Imagem acadêmica" class="img-formacao img-geral">
+                    </td>
+
+                    <td>
+                        <div class="texto">
+                            <p class="paragrafo">Sou formada em administração de empresas, mas me aventurei na área de desenvolvimento para satisfazer minha vontade de aprender sobre essa área que tanto me fascina.</p>            
+                            <p class="paragrafo">Fiz alguns cursos complementares como BPM, IT Business Partner e Teste de Software, que me ajudaram a entender melhor esse campo.</p>
+                        </div>
+                    </td>
+                </tr>
+            </table>
+            <br>
+            <a class="paragrafo" href="#topo">Topo</a>
+           </section>
+           <br><br><br>
+
+        <section id="portifolio"><!--Portifólio-->
+            <p class="titulo borda">Portifólio</p>
+            <table class="portifolio">
+                <tr>
+                    <td>
+                        <a href="portifolio1.html" target="_blank"><img src="img\Fred.jpg" alt="Frederico" class="img-geral img-quadro"></a>
+                    </td>
+                    <td>
+                        <a href="portifolio2.html" target="_blank"><img src="img\Iaia_port.jpg" alt="Iaia e seus filhotes" class="img-geral img-quadro"></a>
+                    </td>
+                    <td>
+                        <a href="portifolio3.html" target="_blank"><img src="img\Lara_preguiça.jpg" alt="Larinha" class="img-geral img-quadro"></a>
+                    </td>
+                </tr>
+            </table>
+            <br>
+            <a class="paragrafo" href="#topo">Topo</a>
+        </section>
+        <br><br><br>        
+
+        <section id="contato"><!--contato-->
+            <p class="titulo borda">Contato</p>
+            <br>
+
+            <form class="texto paragrafo">
+            <!--form action="arquivo em .php para enviar o formulario para um email, por exemplo" method="GET (aparece na barra do navegador) ou POST (fica oculto)"-->
+                <table>
+                    <tr>
+                        <td><label for="nome">Nome:</label></td>
+                        <td><input type="text" name="nome" id="nome"></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td><label for="email">E-mail:</label></td>
+                        <td><input type="email" name="email" id="email"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="msg">Mensagem:</label></td>
+                        <td><textarea name="msg" rows="5" cols="40">Digite sua mensagem</textarea></td>
+                        <!--Revisar a mensagem dentro do textarea pois fica fixado-->
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td><button>Enviar</button></td>
+                        <!--Criar interação com javascript-->
+                    </tr>
+                </table>
+            </form>
+            <br>
+            <a class="paragrafo" href="#topo">Topo</a>
+        </section>
+        <br><br><br>    
+    </main>
+
+    <footer>
+        <div class="rodape">
+            <p> Trabalho criado pela aluna Anna Gonçalves (RU4370041) para a disciplina Fundamentos da Programação Web da faculdade Uninter.
+            </p>
+        </div>
+    </footer>
+
+</body>
+
+</html>

@@ -1,0 +1,83 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#margem-texto{
+    margin: 25px;
+}
+
+#menu{
+    text-align: right;
+    word-spacing: 26px;
+    padding: 15px;
+    background-color: gray;
+}
+
+nav a{
+    color: white;
+}
+
+.titulo{
+    font-size: 18px;
+    color: #2E3548;
+}
+
+.texto{
+    font-size: 16px;
+    text-align: justify;
+    line-height: 27px;
+}
+
+#legenda{
+    font-size: 12px;
+    font-style: italic;
+}
+
+#contato{
+    line-height: 30px;
+    color: gray;
+    font-size: 14px;
+}
+
+button{
+    padding: 6px 15px;    
+    font-size: 14px;
+}
+
+.img_topo{
+    width: 113px;
+    height: 113px;
+    flex-shrink: 0;
+}
+
+.img-abertura{
+    width: 733px;
+    height: 412px;
+    flex-shrink: 0;
+    margin-left: 25px;
+}
+
+.img-meio{
+    width: 733px;
+    height: 412px;
+    flex-shrink: 0;
+    margin-left: 25px;
+}
+
+#rodape{
+    text-align: center;
+    padding: 25px;
+    background-color: gray;
+    color: azure;
+    font-size: 12px;
+
+}
+
+
+
+
+
